@@ -1,4 +1,4 @@
-![image](https://github.com/gjboxer/fastapi-python-backend/assets/64975110/2eeea372-87cd-463d-8ee1-6bafb40a7dd5)# FastAPI E-commerce Backend
+# FastAPI E-commerce Backend
 
 This is the backend API for an e-commerce website built using FastAPI and MongoDB. It provides endpoints for managing products and orders.
 
@@ -78,7 +78,7 @@ py testmdb.py
 ![image](https://github.com/gjboxer/fastapi-python-backend/assets/64975110/94df79fb-68b8-4c94-8aa2-87bdd00fa859)
 
 ### Update Product Quantity
-- Endpoint: PUT /products/{product_id}/update_quantity/
+- Endpoint: PUT /products/{product_id}/update_quantity/?new_quantity=100
 - Description: Update the available quantity of a product by providing its unique product ID.
 ![image](https://github.com/gjboxer/fastapi-python-backend/assets/64975110/d5895632-0293-4201-9354-c57e2461d261)
 
